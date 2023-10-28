@@ -1,0 +1,35 @@
+
+.profile-picture{
+    position: relative;
+}
+.profile-picture:hover+.channel{
+   opacity: 1;
+   transition: opacity 0.15s;
+}
+.channel{
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgb(119, 118, 118);
+    width: fit-content;
+    border-radius: 5px;
+    background-color: rgb(248, 246, 246);
+    width: 200px;
+
+}
+.c_picture{
+    border-radius: 40px;
+    margin-right: 5px;
+    width: 50px;
+ }
+.channel_title{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+}
+.channel_subscribers{
+    font-size: 13px;
+    color: rgb(86, 83, 83);
+}
